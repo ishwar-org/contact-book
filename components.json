@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "app/globals.css",
+    "baseColor": "stone",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@contact-book/components",
+    "utils": "@contact-book/lib/utils",
+    "ui": "@contact-book/components/ui",
+    "lib": "@contact-book/lib",
+    "hooks": "@contact-book/hooks"
+  },
+  "iconLibrary": "lucide"
+}
